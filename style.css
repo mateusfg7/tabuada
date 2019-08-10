@@ -1,0 +1,63 @@
+*{
+	transition: .2s;
+}
+
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	background: #303030;
+}
+
+input{
+	width: 50px;
+	border: none;
+	border-radius: 10px;
+	padding: 10px;
+	background: #303030;
+	color: #fff;
+	
+}
+button{
+	border: none;
+	border-radius: 10px;
+	padding: 10px;
+	background: #303030;
+	color: #fff;
+}
+button:hover{
+	color: #303030;
+	background: #fff;
+	cursor: pointer;
+}
+
+#corpo{
+	margin: auto;
+	max-width: 600px;
+	background: #575757;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+#contas{
+	display: flex;
+	margin: 10px auto;
+}
+
+.tabuada {
+	margin: 5px auto;
+	border-radius: 10px;
+	padding: 5px;
+}
+
+#soma{
+	background: rgb(255, 138, 138);
+}
+#subtracao{
+	background: rgb(138, 140, 255);
+}
+#multiplicacao{
+	background: rgb(255, 253, 138);
+}
+#divisao{
+	background: rgb(152, 255, 138);
+}
