@@ -1,6 +1,10 @@
 *{
 	transition: .2s;
 }
+*::selection{
+	color: #fff;
+	background: #303030;
+}
 
 body{
 	font-family: Arial, Helvetica, sans-serif;
@@ -38,9 +42,10 @@ button:hover{
 	padding: 10px;
 }
 
-#contas{
+.contas{
 	display: flex;
 	margin: 10px auto;
+	text-align: justify;
 }
 
 .tabuada {
@@ -60,4 +65,11 @@ button:hover{
 }
 #divisao{
 	background: rgb(152, 255, 138);
+}
+
+#potencia{
+	background: rgb(138, 255, 230);
+}
+#raiz{
+	background: rgb(255, 138, 249);
 }
